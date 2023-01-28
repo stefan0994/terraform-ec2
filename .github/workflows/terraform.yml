@@ -44,7 +44,7 @@ jobs:
           }
         write-mode: overwrite
 
-    - name: Terraform Init
+    - name: Verify Backend.tf
       run: |
         ls -R
         cat backend.tf
